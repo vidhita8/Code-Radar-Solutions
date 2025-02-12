@@ -9,7 +9,7 @@ int main()
     printf("Hobby: %s\n", hobby);
     return 0;
 }
-#include <stdio.h>
+// #include <stdio.h>
 
 // int main()
 // {
