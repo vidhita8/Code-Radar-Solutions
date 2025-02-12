@@ -13,6 +13,6 @@ int main()
     }
     else
     {
-        print("Zero")
+        print("Zero");
     }
 }
