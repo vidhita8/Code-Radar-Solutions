@@ -9,6 +9,6 @@ int main()
     }
     else
     {
-        print("Odd")
+        print("Odd");
     }
 }
