@@ -53,7 +53,7 @@ int main()
         }
         else
         {
-            printf("Division by zero error");  // Handle division by zero
+            printf("error");  // Handle division by zero
         }
     }
     else
