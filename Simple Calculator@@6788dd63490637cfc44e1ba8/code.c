@@ -14,7 +14,7 @@ int main()
     }
     else if (c=='*')
     {
-        printf("%d", a*b);
+        printf("%%.2lb", a*b);
     }
     else if (c=='/')
     {
