@@ -49,7 +49,7 @@ int main()
     {
         if (b != 0)  // To prevent division by zero
         {
-            printf("%.2f", (float)a / b);  // Division (output as float)
+            printf("%d", (float)a / b);  // Division (output as float)
         }
         else
         {
