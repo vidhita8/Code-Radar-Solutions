@@ -32,6 +32,6 @@ int main()
     }
     else
     {
-        printf("Invalid weekday");
+        printf("Invalid");
     }
 }
