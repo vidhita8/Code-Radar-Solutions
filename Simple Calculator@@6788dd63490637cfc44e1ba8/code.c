@@ -43,7 +43,7 @@ int main()
     }
     else if (c == '*')
     {
-        printf("%.2f", (float)(a * b));  // Multiplication (output as float)
+        printf("%d", (float)(a * b));  // Multiplication (output as float)
     }
     else if (c == '/')
     {
