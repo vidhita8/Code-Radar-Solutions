@@ -14,11 +14,11 @@ int main()
     }
     else if (c=='*')
     {
-        printf("%%.2lb", a*b);
+        printf("%%.2f", a*b);
     }
     else if (c=='/')
     {
-        printf("%.2lb", a/b);
+        printf("%.2f", a/b);
     }
     else
     {
