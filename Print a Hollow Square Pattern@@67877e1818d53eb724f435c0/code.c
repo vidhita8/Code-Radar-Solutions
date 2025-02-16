@@ -7,7 +7,14 @@ int main()
     {
         for(int k=1; k<=n; k++)
         {
-            printf("*");
+            if (k==1 || k==n)            
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
         }
         printf("\n");
     }
