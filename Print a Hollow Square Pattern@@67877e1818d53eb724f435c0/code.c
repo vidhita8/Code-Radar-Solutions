@@ -14,7 +14,7 @@ int main() {
                 printf("*");
             }
             // Print stars in the diagonal (when row and column are the same)
-            else if(i == j || j == n - i + 1) {
+            else if(j==1 || j == n ) {
                 printf("*");
             }
             else {
