@@ -3,7 +3,7 @@
 int main() {
     int i, j;
     int n;
-    scanf("%d", &n)  // Size of the pattern (4x4 grid)
+    scanf("%d", &n);  // Size of the pattern (4x4 grid)
     
     // Outer loop for each row
     for(i = 1; i <= n; i++) {
