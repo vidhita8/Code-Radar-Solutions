@@ -6,21 +6,19 @@ int main()
     for (int i=1; i<=n; i++)
     {
         
-        for(int k=2; k<=n-1; k++)
+        for(int k=2; k<=n; k++)
         {
-            if (i==1 || i==n)
-        {
-            printf("%.*s\n", n, "**************************************************");
-        }
-            if (k==2 || k==n-1)            
-            {
+            if(i == 1 || i == n) {
                 printf("*");
             }
-            else
-            {
+            // Print stars in the diagonal (when row and column are the same)
+            else if(i == j || j == n - i + 1) {
+                printf("*");
+            }
+            else {
+                // Print spaces in the inner part of the pattern
                 printf(" ");
             }
-        }
         printf("\n");
     }
 }
