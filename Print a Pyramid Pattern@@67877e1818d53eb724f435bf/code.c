@@ -4,7 +4,8 @@ int main() {
     int i, j, spaces, stars;
     
     // Height of the pyramid (number of rows)
-    int rows = 5;
+    int rows;
+    scanf("%d", &rows)
     
     // Loop for each row
     for(i = 1; i <= rows; i++) {
