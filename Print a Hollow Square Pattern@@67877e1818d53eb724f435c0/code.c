@@ -11,7 +11,7 @@ int main()
         }
         for(int k=2; k<=n; k++)
         {
-            if (k==2 || k==(n-1))            
+            if (k==2 || k==(n))            
             {
                 printf("*");
             }
