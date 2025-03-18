@@ -39,12 +39,12 @@ int main() {
         if ((arr[i]>arr[i-1]) && (arr[i]>arr[i+1]))
         {
         printf("%d", arr[i]);
-        break;
+        return 0;
         }
         else
         {
         printf("-1");
-        break;
+        return 0;
         }
     }
     
