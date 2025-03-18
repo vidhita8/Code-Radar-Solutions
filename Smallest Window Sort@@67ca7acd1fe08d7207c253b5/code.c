@@ -21,5 +21,5 @@ int findUnsortedSubarray(int arr[], int n)
         if (arr[i]!=arr2[i])
         k++;
     }
-    return k-1;
+    return k;
 }
