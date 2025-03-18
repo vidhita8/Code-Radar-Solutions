@@ -12,7 +12,7 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
-void printArray(arr, n)
+void printArray(int arr[], int n)
 {
     for(int i=0; i<n; i++)
     {
