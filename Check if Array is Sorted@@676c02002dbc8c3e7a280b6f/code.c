@@ -12,7 +12,7 @@ int main()
     {
         if (arr[i]>arr[i+1])
         {
-            k++
+            k++;
         }
     }
     if k==0
