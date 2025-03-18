@@ -10,7 +10,6 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    printf()
     for (int i=0; i<n; i++)
     {
         int t=(i+k)%n;
