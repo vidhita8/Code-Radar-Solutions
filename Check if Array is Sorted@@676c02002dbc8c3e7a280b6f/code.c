@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n;
+    int n,k=0;
     scanf("%d", &n);
     int arr[n];
     for (int i = 0; i < n; i++) {
@@ -12,10 +12,12 @@ int main()
     {
         if (arr[i]>arr[i+1])
         {
-            printf("Not Sorted");
-            break;
+            k++
         }
     }
+    if k==0
         printf("Sorted");
+    else
+    printf("Not Sorted");
     }
 
