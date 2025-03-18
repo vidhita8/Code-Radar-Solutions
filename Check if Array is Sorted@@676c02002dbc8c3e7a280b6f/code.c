@@ -7,11 +7,12 @@ int main()
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);  // Read each element of the array
     }
-
-    // Print the array to check if it's correct
-    for (int i = 0; i < n; i++) 
+    for (int i=0; i<n; i++)
     {
-        printf("%d ", arr[i]);
+        if (arr[i]>arr[i+1])
+        printf("Not Sorted")
+        else
+        printf("Sorted")
     }
 
 }
