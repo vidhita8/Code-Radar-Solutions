@@ -16,7 +16,7 @@ void printArray(int arr[], int n)
 {
     for(int i=0; i<n; i++)
     {
-        k=arr[i];
+        int k=arr[i];
         printf("%d ", k);
     }
 }
