@@ -3,8 +3,6 @@
 int main() {
     int rows;
 
-    // Ask the user for the number of rows
-    printf("Enter the number of rows: ");
     scanf("%d", &rows);
 
     // Loop to print the triangle pattern
