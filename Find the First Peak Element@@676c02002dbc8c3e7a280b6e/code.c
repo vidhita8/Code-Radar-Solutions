@@ -14,16 +14,7 @@
 //     }
 //     for (int i=1; i<n; i++)
 //     {
-//         if ((arr[i]>arr[i-1]) && (arr[i]>arr[i+1]))
-//         {
-//         printf("%d", arr[i]);
-//         break;
-//         }
-//         else
-//         {
-//         printf("-1");
-//         break;
-//         }
+//         
 //     }
 // }
 
@@ -44,8 +35,17 @@ int main() {
     }
     
     // Optionally, print the array to verify input (for debugging purposes)
-    for (int i = 0; i < n+2; i++) {
-        printf("%d\n", arr[i]);
+    for (int i = 1; i < n+1; i++) {
+        if ((arr[i]>arr[i-1]) && (arr[i]>arr[i+1]))
+        {
+        printf("%d", arr[i]);
+        break;
+        }
+        else
+        {
+        printf("-1");
+        break;
+        }
     }
     
     return 0;
