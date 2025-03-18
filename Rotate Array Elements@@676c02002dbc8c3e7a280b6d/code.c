@@ -6,20 +6,17 @@ int main()
     scanf("%d", &n);
     scanf("%d", &k);
     int arr[n], arr2[n];
-    for (int i; i<n; i++)
+    for (int i=0; i<n; i++)
     {
         scanf("%d", &arr[i]);
     }
-    for (int i; i<n; i++)
+    printf()
+    for (int i=0; i<n; i++)
     {
-        int t=i+k;
-        if(t>n)
-        {
-            t=t-n;
-        }
-        arr2[i]=arr[i+k];
+        int t=(i+k)%n;
+        arr2[i]=arr[t];
     }
-    for(int i; i<n; i++)
+    for(int i=0; i<n; i++)
     {
         printf("%d\n", arr2[i]);
     }
