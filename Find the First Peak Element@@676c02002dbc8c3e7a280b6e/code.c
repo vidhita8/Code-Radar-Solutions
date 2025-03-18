@@ -44,7 +44,7 @@ int main() {
     }
     
     // Optionally, print the array to verify input (for debugging purposes)
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n+2; i++) {
         printf("%d\n", arr[i]);
     }
     
