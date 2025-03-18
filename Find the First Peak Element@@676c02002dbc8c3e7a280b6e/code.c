@@ -21,7 +21,7 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int n, k=0;
     
     // Read the number of elements (usually provided in the first line)
     scanf("%d", &n);  
@@ -38,15 +38,13 @@ int main() {
     for (int i = 1; i < n+2; i++) {
         if ((arr[i]>arr[i-1]) && (arr[i]>arr[i+1]))
         {
-        printf("%d", arr[i]);
+        k=arr[i];
+        printf("%d", k);
         return 0;
         }
-        // else
-        // {
-        // printf("-1");
-        // return 0;
-        // }
     }
+    if k==0
+    printf("-1");
     
     return 0;
 }
