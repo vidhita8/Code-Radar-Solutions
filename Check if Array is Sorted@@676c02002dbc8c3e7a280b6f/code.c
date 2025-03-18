@@ -15,7 +15,7 @@ int main()
             k++;
         }
     }
-    if k==0
+    if (k==0)
         printf("Sorted");
     else
     printf("Not Sorted");
