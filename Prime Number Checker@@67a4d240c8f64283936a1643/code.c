@@ -6,7 +6,7 @@ int isPrime(int num)
         if (num%i==0)
             c++;
     }
-    if (c==0)
+    if (c==2)
     {
         printf("1");
     }
