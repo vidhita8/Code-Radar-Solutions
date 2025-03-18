@@ -10,6 +10,9 @@ int main()
     for (int i = 1; i <= n+1; i++) {
         scanf("%d", &arr[i]);  
     }
+    for (int i = 1; i <= n+1; i++) {
+        printf("%d\n", &arr[i]);  
+    }
     for (int i=1; i<n; i++)
     {
         if ((arr[i]>arr[i-1]) && (arr[i]>arr[i+1]))
