@@ -14,7 +14,7 @@ int main() {
 
     // Perform circular shift
     for (int i = 0; i < n; i++) {
-        int t = (i + k) % n;  // This handles the circular shifting
+        int t = (i + k+1) % n;  // This handles the circular shifting
         arr2[i] = arr[t];  // Store the shifted value in arr2
     }
 
