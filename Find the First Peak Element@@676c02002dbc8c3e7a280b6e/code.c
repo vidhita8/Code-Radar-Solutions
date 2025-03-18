@@ -39,7 +39,7 @@ int main() {
     arr[0]=0;
     arr[n+1]=0;
     // Read the array elements, one per line
-    for (int i = 0; i < n+2; i++) {
+    for (int i = 1; i < n+2; i++) {
         scanf("%d", &arr[i]);
     }
     
