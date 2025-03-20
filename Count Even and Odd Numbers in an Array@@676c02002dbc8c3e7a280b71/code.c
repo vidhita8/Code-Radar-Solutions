@@ -1,23 +1,52 @@
+// #include <stdio.h>
+// int main()
+// {
+//     int n, even=0, odd=0;
+//     int arr[n];
+//     scanf("%d", &n);
+//     for (int i=0; i<n; i++)
+//     {
+//         scanf("%d", &arr[i]);
+//     }
+//     for(int i=0; i<n; i++)
+//     {
+//         if(arr[i]%2==0)
+//         {
+//             even++;
+//         }
+//         else
+//         {
+//             odd++;
+//         }    
+//     }
+//     printf("%d %d", even, odd);
+// }
+
 #include <stdio.h>
+
 int main()
 {
-    int n, even=0, odd=0;
-    int arr[n];
+    int n, even = 0, odd = 0;  // Initialize even and odd to 0
     scanf("%d", &n);
-    for (int i=0; i<n; i++)
+    int arr[n];  // Define the array after n is known
+
+    for (int i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
-    for(int i=0; i<n; i++)
+
+    for (int i = 0; i < n; i++)
     {
-        if(arr[i]%2==0)
+        if (arr[i] % 2 == 0)
         {
-            even++;
+            even++;  // Increment even for even numbers
         }
         else
         {
-            odd++;
-        }    
+            odd++;  // Increment odd for odd numbers
+        }
     }
-    printf("%d %d", even, odd);
+
+    printf("%d %d", even, odd);  // Print even and odd counts
+    return 0;
 }
