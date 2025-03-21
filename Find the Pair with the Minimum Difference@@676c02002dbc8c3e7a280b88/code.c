@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n, diff=0, first,second;
+    int n, diff=100000, first,second;
     scanf("%d", &n);
     int arr[n];
     if (n>1)
