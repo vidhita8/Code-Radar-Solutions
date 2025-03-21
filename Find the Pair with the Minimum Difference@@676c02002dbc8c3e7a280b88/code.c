@@ -35,7 +35,6 @@
 //         printf("-1");
 //     }
 // }
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -64,11 +63,22 @@ int main()
         for (int j = i + 1; j < n; j++) // Compare with each subsequent element
         {
             int current_diff = abs(arr[i] - arr[j]); // Calculate absolute difference
-            if (current_diff < diff) // If this pair has a smaller difference
+
+            // If a smaller difference is found, update first, second, and diff
+            if (current_diff < diff)
             {
                 diff = current_diff; // Update the smallest difference
                 first = arr[i]; // Store the first element of the pair
                 second = arr[j]; // Store the second element of the pair
+            }
+            // If the difference is the same but the numbers are smaller, update the pair
+            else if (current_diff == diff)
+            {
+                if (arr[i] < first || (arr[i] == first && arr[j] < second))
+                {
+                    first = arr[i];
+                    second = arr[j];
+                }
             }
         }
     }
@@ -85,3 +95,4 @@ int main()
 
     return 0;
 }
+
