@@ -10,7 +10,7 @@ int main()
         {
             scanf("%d", &arr[i]);
         }
-        int max==100;
+        int max=-100;
         int max2=-100;
         for (int i=0; i<n; i++)
         { 
