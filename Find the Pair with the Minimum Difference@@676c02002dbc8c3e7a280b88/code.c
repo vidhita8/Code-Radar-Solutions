@@ -21,11 +21,11 @@ int main()
     }
     if (first>second)
     {
-        printf("%d %d", first, second);
+        printf("%d %d",second, first);
     }
     else if (second>first)
     {
-        printf("%d %d", second, first);
+        printf("%d %d",first, second);
     }
     }
     else
