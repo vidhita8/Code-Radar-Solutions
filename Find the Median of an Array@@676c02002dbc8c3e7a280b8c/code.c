@@ -14,7 +14,7 @@ int main()
     }
     
     if (n%2==0)
-    {n--;
+    {
         median=arr[abs(n/2)]+arr[abs(n/2)+1];
         printf("%d", abs(median/2));
     }
