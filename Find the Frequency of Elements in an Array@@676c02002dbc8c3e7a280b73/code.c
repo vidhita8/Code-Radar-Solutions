@@ -8,8 +8,14 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
+    int arr2[n];
     for (int i=0; i<n; i++)
     {
-        printf("%d ", arr[i]);
+        for (int j=0; j<i; j++)
+        {
+            if (arr[i]==arr2[j])
+            arr2[j]==arr[i];
+        }
     }
+    
 }
