@@ -12,8 +12,11 @@ int main()
     {
         for (int j=0; j<n; j++)
         {
-            if (arr[i]==arr[j])
-            printf("%d", arr[i]);
+            if (i!=j)
+            {
+            else if (arr[i]==arr[j])
+                printf("%d", arr[i]);
+            }
         }
     }
 }
