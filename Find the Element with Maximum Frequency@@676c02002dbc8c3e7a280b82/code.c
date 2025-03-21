@@ -21,5 +21,5 @@ int main()
             count1=0;
         }
     }
-    printf("%d", &count);
+    printf("%d", count);
 }
