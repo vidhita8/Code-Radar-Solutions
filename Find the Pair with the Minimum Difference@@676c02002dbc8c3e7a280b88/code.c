@@ -15,8 +15,8 @@ int main()
         for(int j=0; j<n; j++)
         {
             if (arr[i]-arr[j]<diff)
-            first=arr[i]
-            second=arr[j]
+            first=arr[i];
+            second=arr[j];
         }
     }
     if (first>second)
