@@ -12,9 +12,10 @@ int main()
     int max2=-90;
     for (int i=0; i<n; i++)
     { 
-        max2=max;
+        
         if (max<arr[i])
         {
+            max2=max;
             max=arr[i];
         }
     }
