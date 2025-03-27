@@ -22,16 +22,9 @@ int main()
         {
             sec_min = arr[i];
         }
-        if (arr[i]=arr[i+1])
-        {
-            printf("-1");
-            break;
-        }
     }
     printf("%d", sec_min);
     }
-    else if (nn==n)
-    printf("-1");
     else
     printf("-1");
 }
