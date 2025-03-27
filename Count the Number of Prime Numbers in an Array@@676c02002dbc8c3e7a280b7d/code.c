@@ -16,6 +16,7 @@ int main()
         {
             if (k%j==0)
             l++;
+            break;
         }
         counter++;
     }
