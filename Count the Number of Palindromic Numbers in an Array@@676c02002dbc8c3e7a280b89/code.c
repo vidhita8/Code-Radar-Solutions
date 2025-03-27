@@ -17,7 +17,7 @@ int main()
             rm=rm*10+k;
             m=m/10;
         }
-        if (rm=m)
+        if (rm=arr[i])
         counter++;
     }
     printf("%d", counter);
