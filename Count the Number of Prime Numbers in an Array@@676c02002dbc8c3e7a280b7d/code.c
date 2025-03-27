@@ -19,5 +19,5 @@ int main()
         }
         counter++;
     }
-    printf("%d", counter);
+    printf("%d", l);
 }
