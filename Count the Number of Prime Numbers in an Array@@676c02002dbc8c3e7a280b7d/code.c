@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {
-    int n,k,l;
+    int n,k,l, counter=0;
     scanf("%d", &n);  // Input the size of the array
     int arr[n];
 
@@ -17,7 +17,7 @@ int main()
             if (k%j==0)
             l++;
         }
-        if (l==0)
-        printf("%d ", k);
+        counter++;
     }
+    printf("%d", counter);
 }
