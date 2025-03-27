@@ -22,5 +22,5 @@ int main()
         if (prime==1)
         counter++;
     }
-    printf("%d", l);
+    printf("%d", counter);
 }
