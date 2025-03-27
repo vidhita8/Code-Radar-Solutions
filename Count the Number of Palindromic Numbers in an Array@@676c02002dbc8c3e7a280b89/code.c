@@ -11,7 +11,7 @@ int main()
     for (int i=0; i<n; i++)
     {
         int m=arr[i];
-        while m!=0
+        while (m!=0)
         {
             k=m%10;
             rm=rm*10+k;
