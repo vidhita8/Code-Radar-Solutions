@@ -16,6 +16,10 @@ int main()
             sec_min=min;
             min=arr[i];
         }
+        else if (arr[i] < sec_min && arr[i] != min) 
+        {
+            sec_min = arr[i];
+        }
     }
     printf("%d", sec_min);
 }
