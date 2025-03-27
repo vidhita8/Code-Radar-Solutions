@@ -4,6 +4,8 @@ int main()
     int n, min,sec_min;
     scanf("%d", &n);
     int arr[n];
+    if (n>1)
+    {
     for (int i=0; i<n; i++)
     {
         scanf("%d", &arr[i]);
@@ -22,4 +24,7 @@ int main()
         }
     }
     printf("%d", sec_min);
+    }
+    else
+    printf("-1");
 }
