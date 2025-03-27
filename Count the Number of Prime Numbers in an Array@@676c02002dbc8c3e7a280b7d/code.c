@@ -18,6 +18,6 @@ int main()
             l++;
         }
         if (l==0)
-        printf("%d", k);
+        printf("%d ", k);
     }
 }
