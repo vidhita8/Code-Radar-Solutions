@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n, min,sec_min;
+    int n, min,sec_min, nn=0;
     scanf("%d", &n);
     int arr[n];
     if (n>1)
