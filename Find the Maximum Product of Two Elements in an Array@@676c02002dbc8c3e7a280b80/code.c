@@ -13,7 +13,7 @@ int main()
         for (int j=i+1; j<n; j++)
         {
             if (k<(arr1[1]*arr1[j]))
-            k=arr1[1]*arr1[j]
+            k=arr1[1]*arr1[j];
         }
     }
     printf("%d", k);
