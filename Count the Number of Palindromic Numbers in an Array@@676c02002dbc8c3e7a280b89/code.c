@@ -11,13 +11,14 @@ int main()
     for (int i=0; i<n; i++)
     {
         int m=arr[i];
+        rm=0;
         while (m!=0)
         {
             k=m%10;
             rm=rm*10+k;
             m=m/10;
         }
-        if (rm=arr[i])
+        if (rm==arr[i])
         counter++;
     }
     printf("%d", counter);
