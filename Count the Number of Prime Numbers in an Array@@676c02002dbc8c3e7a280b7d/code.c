@@ -19,7 +19,7 @@ int main()
             l++;
             prime=1;
         }
-        if (prime==1)
+        if (prime==0)
         counter++;
     }
     printf("%d", counter);
