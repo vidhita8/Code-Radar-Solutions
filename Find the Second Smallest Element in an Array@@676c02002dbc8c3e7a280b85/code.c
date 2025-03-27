@@ -30,5 +30,5 @@ int main()
     else if (nn==n)
     printf("-1");
     else
-    printf(-1);
+    printf("-1");
 }
