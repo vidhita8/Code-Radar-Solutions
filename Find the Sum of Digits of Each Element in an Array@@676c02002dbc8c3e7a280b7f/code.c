@@ -12,7 +12,7 @@ int main()
     {
         int m=arr1[i];
         int s=0,r;
-        while (m!=0);
+        while (m!=0)
         {
         r=m%10;
         s+=r;
