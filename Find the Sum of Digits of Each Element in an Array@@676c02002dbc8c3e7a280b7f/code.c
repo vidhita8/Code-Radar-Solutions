@@ -11,7 +11,7 @@ int main()
     for (int i=0; i<n-1; i++)
     {
         int m=arr1[i];
-        int s=0;
+        int s=0,r;
         while (m!=0);
         {
         r=m%10;
