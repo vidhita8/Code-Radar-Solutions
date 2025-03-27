@@ -15,9 +15,11 @@ int main()
         if (arr1[i]==arr1[j])
         {
             printf("%d", arr1[i]);
-            n++;
+            k++;
             return 0;
         }
         }
     }
+    if (k==0)
+    printf("-1");
 }
