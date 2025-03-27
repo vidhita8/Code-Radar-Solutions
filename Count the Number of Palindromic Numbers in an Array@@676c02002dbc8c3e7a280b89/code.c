@@ -12,7 +12,7 @@ int main()
     {
         int m=arr[i];
         rm=0;
-        if (m>0)
+        if (m>=0)
         {
         while (m!=0)
         {
