@@ -17,4 +17,6 @@ int main()
     }
     if (counter==n)
     printf("YES");
+    else 
+    printf("NO");
 }
