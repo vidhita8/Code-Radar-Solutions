@@ -10,14 +10,16 @@ int main()
         scanf("%d", &arr[i]);
     }
     for (int i=0; i<n; i++)
-    {
+    { 
+        int prime=0;
         k=arr[i];
         for (int j=2; j<k; j++)
         {
             if (k%j==0)
             l++;
-            break;
+            prime=1;
         }
+        if (prime==1)
         counter++;
     }
     printf("%d", l);
