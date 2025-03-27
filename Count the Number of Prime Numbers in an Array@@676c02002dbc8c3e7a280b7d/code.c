@@ -13,6 +13,12 @@ int main()
     { 
         int prime=0;
         k=arr[i];
+        if (k <= 1) 
+        {
+            prime = 0; // Numbers <= 1 are not prime
+        } 
+        else 
+        {
         for (int j=2; j<k; j++)
         {
             if (k%j==0)
@@ -20,6 +26,6 @@ int main()
         }
         if (prime==0)
         counter++;
-    }
+    }}
     printf("%d", counter);
 }
