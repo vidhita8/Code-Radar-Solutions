@@ -10,10 +10,13 @@ int main()
     }
     for (int i=0; i<n-1; i++)
     {
-        for (int j=i+1; j<n; j++)
+        for (int j=0; j<n; j++)
         {
+            if (i!=j)
+            {
             if (k<(arr1[1]*arr1[j]))
             k=arr1[1]*arr1[j];
+            }
         }
     }
     printf("%d", k);
