@@ -14,8 +14,10 @@ int main()
         {
             if (i!=j)
             {
-            if (k<(arr1[1]*arr1[j]))
-            k=arr1[1]*arr1[j];
+                if (k<(arr1[1]*arr1[j]))
+                {
+                k=arr1[1]*arr1[j];
+                }
             }
         }
     }
