@@ -18,5 +18,5 @@ int main()
         }
         printf("%d ", max);
     }
-    printf("-1")
+    printf("-1");
 }
