@@ -23,7 +23,10 @@ int main()
             sec_min = arr[i];
         }
         if (arr[i]=arr[i+1])
-        nn++;
+        {
+            printf("-1");
+            break;
+        }
     }
     printf("%d", sec_min);
     }
