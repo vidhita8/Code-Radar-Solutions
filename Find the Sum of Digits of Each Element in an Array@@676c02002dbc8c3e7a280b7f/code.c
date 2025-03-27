@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
     int n, k=0,s,r;
@@ -18,6 +19,6 @@ int main()
         s+=r;
         m/=10;
         }
-        printf("%d ", s);
+        printf("%d ", abs(s));
     }
 }
