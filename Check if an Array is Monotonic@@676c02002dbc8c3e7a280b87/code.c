@@ -47,9 +47,9 @@ int main() {
 
     // If either increasing or decreasing is true, it's a monotonic array
     if (increasing || decreasing) {
-        printf("The array is monotonic.\n");
+        printf("YES");
     } else {
-        printf("The array is not monotonic.\n");
+        printf("NO");
     }
 
     return 0;
