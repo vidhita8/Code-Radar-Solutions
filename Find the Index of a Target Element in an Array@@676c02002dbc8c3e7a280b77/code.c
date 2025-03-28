@@ -18,7 +18,7 @@ int main()
         }
     }
     if (ans!=0)
-    printf("%d", ans;
+    printf("%d", ans);
     else
     printf("-1");
 }
