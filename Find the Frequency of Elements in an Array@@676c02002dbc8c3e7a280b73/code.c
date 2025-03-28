@@ -11,10 +11,29 @@ int main()
     int arr2[n];
     for (int i=0; i<n; i++)
     {
-        for (int j=0; j<i; j++)
+        arr2[i]=-1;
+    }
+    for (int i=0; i<n; i++)
+    {
+        if (arr2[i]==-1)
         {
-            if (arr[i]==arr2[j])
-            arr2[j]==arr[i];
+            int count=-1;
+            for(int j=i+1; j<n; j++)
+            {
+                if (arr[i]==arr[j])
+                {
+                    count++;
+                    arr2[j]=0;
+                }
+            }
+            arr2[i]=count;
+        }
+    }
+    for (int i = 0; i < n; i++) 
+    {
+        if (arr2[i] != 0) 
+        {  
+            printf("%d %d", arr[i], arr2[i]);
         }
     }
     
