@@ -16,6 +16,7 @@ int main()
         {
             if((k+1)!=arr[j])
             printf("%d", k+1);
+            break;
         }
     }
 }
