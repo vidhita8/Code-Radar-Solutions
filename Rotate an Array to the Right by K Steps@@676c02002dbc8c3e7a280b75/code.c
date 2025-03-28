@@ -13,7 +13,7 @@ int main()
     int arr2[n];
     for (int i=0; i<n; i++)
     {
-        arr2[(k+i)%k]=arr[i];
+        arr2[(k+i)%n]=arr[i];
     }
     for (int i=0; i<n; i++)
     {
