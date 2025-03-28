@@ -15,8 +15,9 @@ int main()
         for(int j=0; j<n; j++)
         {
             if((k+1)!=arr[j])
-            printf("%d", k+1);
+            {printf("%d", k+1);
             break;
+            }
         }
     }
 }
