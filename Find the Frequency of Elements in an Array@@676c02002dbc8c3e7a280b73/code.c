@@ -31,7 +31,7 @@ int main() {
     // Print the elements and their frequencies
     for (int i = 0; i < n; i++) {
         if (arr2[i] != 0) {  // Print only unvisited elements
-            printf("Element %d appears %d times\n", arr[i], arr2[i]);
+            printf("%d %d\n", arr[i], arr2[i]);
         }
     }
 
