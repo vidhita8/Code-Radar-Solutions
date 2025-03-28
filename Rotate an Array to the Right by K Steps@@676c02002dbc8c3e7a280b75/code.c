@@ -1,4 +1,5 @@
-// Your code here...#include <stdio.h>
+// Your code here...
+#include <stdio.h>
 int main()
 {
     int n,k, ans=0, c=0;
