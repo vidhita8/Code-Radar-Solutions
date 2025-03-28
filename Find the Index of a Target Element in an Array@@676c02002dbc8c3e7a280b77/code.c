@@ -14,10 +14,11 @@ int main()
         if (arr[i]==k)
         {
             ans=i;
+            break;
         }
     }
     if (ans!=0)
-    printf("%d", i);
+    printf("%d", ans;
     else
     printf("-1");
 }
