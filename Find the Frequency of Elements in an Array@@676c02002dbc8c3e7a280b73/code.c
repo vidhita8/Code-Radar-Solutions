@@ -33,7 +33,7 @@ int main()
     {
         if (arr2[i] != 0) 
         {  
-            printf("%d %d", arr[i], arr2[i]);
+            printf("%d %d\n", arr[i], arr2[i]);
         }
     }
     
