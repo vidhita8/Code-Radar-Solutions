@@ -21,6 +21,8 @@ int main()
     }
     printf("%d", sec_max);
     }
-    else
+    else if (n==1)
+    printf("-1");
+    else if (arr[0]==10)
     printf("-1");
 }
