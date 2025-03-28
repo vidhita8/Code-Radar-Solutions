@@ -4,25 +4,16 @@ int main()
     int n;
     scanf("%d", &n);
     int arr[n];
-    if (n>1)
-    {
     for (int i=0; i<n; i++)
-        {
-            scanf("%d", &arr[i]);
-        }
-        int max=-100;
-        int max2=-100;
-        for (int i=0; i<n; i++)
-        { 
-            
-            if (max<arr[i])
-            {
-                max2=max;
-                max=arr[i];
-            }
-        }
-        printf("%d", max2);
+    {
+        scanf("%d", %arr[i])
     }
-    else 
-    printf("-1");
+    int max=arr[0], sec_max=arr[0];
+    for (int i=0; i<n; i++)
+    {
+        if (arr[i]>max)
+        sec_max=max;
+        max=arr[i];
+    }
+    printf("%d", sec_max);
 }
