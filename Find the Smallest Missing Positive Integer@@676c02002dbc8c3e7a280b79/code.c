@@ -14,7 +14,7 @@ int main()
         k=arr[i];
         for(int j=0; j<n; j++)
         {
-            if((k+1)==arr[j])
+            if((k+1)!=arr[j])
             printf("%d", k+1);
         }
     }
