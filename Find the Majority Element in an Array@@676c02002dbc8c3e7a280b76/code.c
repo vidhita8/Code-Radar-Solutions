@@ -16,7 +16,7 @@ int main()
             if (arr[i]==arr[j])
             {
                 count++;
-                if (count>main_count)
+                if (count>n/2)
                 main_count=count;
                 ans=arr[i];
                 
