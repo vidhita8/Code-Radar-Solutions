@@ -1,10 +1,13 @@
 void fibonacciSeries(int n)
 {
-    int a=0,b=1;
+    int a=0,b=1,next;
     for (int i=0; i<n; i++)
     {
-        printf("%d ", a);
-        a,b=b,a+b;
+        next = a + b;
+        a = b;
+        b = next;
+        printf("%d ", next);
+
 
         
     }
