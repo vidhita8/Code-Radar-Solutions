@@ -50,12 +50,4 @@ void printPrimesInRange(int a, int b) {
         printf("%s\n", s);
 }
 
-int main() {
-    int a, b;
-    printf("Enter range (a b): ");
-    scanf("%d %d", &a, &b);
 
-    printPrimesInRange(a, b); // Call function
-
-    return 0;
-}
