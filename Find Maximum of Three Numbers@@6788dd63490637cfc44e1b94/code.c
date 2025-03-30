@@ -28,6 +28,6 @@ int main()
         max=*p1;
     }
     else if (*p1=*p2=*p3)
-    max=0;
+    max=*p1;
     printf("%d", max);
 }
