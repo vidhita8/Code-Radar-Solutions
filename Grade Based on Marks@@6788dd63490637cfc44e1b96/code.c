@@ -4,7 +4,7 @@ int main()
     int n;
     char gra;
     scanf("%d", &n);
-    int *p1=&n;
+    int *p=&n;
     char *g=&gra;
     if (*p>=90)
     *g='A';
@@ -16,5 +16,5 @@ int main()
     *g='D';
     else if (*p<60)
     *g='F';
-    printf("%c", &g);
+    printf("%c", *g);
 }
