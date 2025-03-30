@@ -10,14 +10,14 @@ int main()
     {
         if (*p1>=*p3)
         max=*p1;
-        else if (*p1=<*p3)
+        else if (*p1<=*p3)
         max=*p3;
     }
     else if (*p2>=*p1)
     {
         if (*p2>=*p3)
         max=*p2;
-        else if (*p2=<*p3)
+        else if (*p2<=*p3)
         max=*p3;
     }
     else if (*p2>=*p3)
