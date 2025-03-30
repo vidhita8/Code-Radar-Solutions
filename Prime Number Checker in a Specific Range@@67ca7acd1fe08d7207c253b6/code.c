@@ -29,7 +29,7 @@ void printPrimesInRange(int a, int b) {
         if (i < 2) continue;  // Skip numbers < 2 (not prime)
         
         int isPrime = 1; // Assume i is prime
-        for (int j = 2; j <= sqrt(i); j++) {
+        for (int j = 2; j <= i; j++) {
             if (i % j == 0) {
                 isPrime = 0; // Not a prime
                 break;
