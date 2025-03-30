@@ -18,19 +18,14 @@
 //     printf("%s", s);
 // }
 
-#include <stdio.h>
-#include <string.h>
-
 void printPrimesInRange(int a, int b) {
-    #include <math.h>
-
-    char s[1000] = ""; // Initialize an empty string
+    char s[1000] = ""; // Initialize an empty string to store primes
 
     for (int i = a; i <= b; i++) {
         if (i < 2) continue;  // Skip numbers < 2 (not prime)
         
         int isPrime = 1; // Assume i is prime
-        for (int j = 2; j <= sqrt(i); j++) {
+        for (int j = 2; j <= i / 2; j++) { // Check divisibility up to i/2
             if (i % j == 0) {
                 isPrime = 0; // Not a prime
                 break;
@@ -50,5 +45,3 @@ void printPrimesInRange(int a, int b) {
     else
         printf("%s\n", s);
 }
-
-
