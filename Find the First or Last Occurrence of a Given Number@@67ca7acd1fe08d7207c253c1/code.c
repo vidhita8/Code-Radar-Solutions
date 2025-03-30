@@ -1,6 +1,6 @@
-int findOccurence(int arr[], int n, int target, char mode)
+int findOccurrence(int arr[], int n, int target, char mode)
 {
-    ans=-1;
+    int ans=-1;
     if(mode=='F')
     {
         for (int i=0; i<n; i++)
@@ -11,7 +11,7 @@ int findOccurence(int arr[], int n, int target, char mode)
     }
     else if(mode=='L')
     {
-        for (int=n-1; i>=0; i--)
+        for (int i=n-1; i>=0; i--)
         {
             if (arr[i]==target)
             {
