@@ -2,7 +2,7 @@
 int main()
 {
     int a,b,c, max;
-    scanf("%d %d %d", a, b, c);
+    scanf("%d %d %d", &a, &b, &c);
     int *p1=&a;
     int *p2=&b;
     int *p3=&c;
