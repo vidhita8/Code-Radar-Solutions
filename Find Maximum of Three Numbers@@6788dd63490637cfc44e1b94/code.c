@@ -24,7 +24,7 @@ int main()
     {
         if (*p2>=*p1)
         max=*p2;
-        else if (*p2=<*p1)
+        else if (*p2<=*p1)
         max=*p1;
     }
     printf("%d", max);
